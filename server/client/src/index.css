@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: sans-serif, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+  /* font-weight: 500px !important; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+#invoicePortal {
+  padding-left: 2%;
+}
+
+td {
+  min-width: 100px;
+}
+
+.basic-single {
+  min-width: 200px
+}
+
+tbody+thead {
+  display: none;
+}
+
+.invoiceLink {
+  text-decoration: underline;
+}
+
+.radio {
+  width: 25%
+}
+
+.invoiceRadio {
+  padding: 20px 30px;
+  width: 20%
+}
+
+thead tr {
+  background-color: lightskyblue;
+}
+
+.queryTextArea {
+  border-radius: 1px;
+  border-color: black;
+  resize: none;
+}
+
+#emailId {
+  border-radius: 1px;
+  border-color: black;
+}
+
+.okBtn {
+  border: 1px solid black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.okBtn:disabled {
+  cursor: not-allowed !important;
+}
+.display-status {
+  display: inline-flex !important;
+}
+td {
+  white-space: nowrap;
+}
+
+.custom-grey-color{
+  color: #808080;
+}
+.custom-red-color{
+  color: #e01313;
+}
+.custom-amber-color{
+  color: #e68e0bda;
+}
+.custom-green-color{
+  color: #0d9b19e5;
+}
+
+.position-right {
+  float: left;
+}
+.position-left {
+  float: right;
+  cursor: pointer;
+}
+.status-position {
+  width: 150px !important;
+  display: block;
+}

@@ -1,0 +1,99 @@
+.custom-model div.modal-content {
+    position: relative;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    pointer-events: auto;
+    background-color: #fefefe !important;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 0;
+    outline: 0;
+    width: 100%;
+    height: 100%;
+    padding: 1.25rem;
+}
+
+.custom-model div.modal-header {
+    display: flex;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding: 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+.custom-model div.modal-title {
+    font-size: 18px;
+    color: #000;
+    font-weight: normal;
+}
+
+.custom-model.fade {
+    background-color: rgba(0, 0, 0, 0.9);
+    -webkit-transition: opacity 0.15s linear;
+    transition: opacity 0.15s linear;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+    height: 100%;
+}
+
+.custom-model div.modal-60w.modal-dialog {
+    margin: 1.75rem auto !important;
+    width: 73.75%;
+    max-width: 90% limportant;
+}
+
+.custom-model div.modal-40w.modal-dialog {
+    width: 40%;
+    max-width: 90% !important;
+    margin: 1.75rem auto limportant;
+}
+
+.custom-model div.modal-30w.modal-dialog {
+    max-width: 90% !important;
+    margin: 1.75rem auto !important;
+    width: 30%;
+}
+
+.custom-model div.modal-footer {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    padding-top: 2rem;
+    border-top: none;
+    border-bottom-right-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+}
+
+.custom-model div.modal-header button.close {
+    float: right;
+    font-size: 1.7rem;
+    font-weight: normal;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 0.5;
+    padding: 0.5rem 1rem;
+    margin: -1rem -1rem -1rem auto;
+}
+
+.custom-model div.modal-100w.modal-dialog {
+    widows: 97vw;
+    max-width: 100vw !important;
+    margin: 20px 40px 20px 40px !important;
+}
+
+.modal-errorcomp-msg {
+    padding: 5px 0 0 20px;
+    background: white;
+}

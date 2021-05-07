@@ -1,0 +1,13 @@
+#leftMenuDiv {
+    width: 15%;
+    background-color: aqua;
+    border-width: 1px;
+    border-style: solid;
+    float: left;
+    min-height: 1080px;
+
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
